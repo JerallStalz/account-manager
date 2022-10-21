@@ -1,0 +1,27 @@
+// User Routes
+
+// Create Acc
+POST http://localhost:4040/user/signin
+
+###
+
+// Edit acc
+PUT http://localhost:4040/user/edit
+
+###
+
+// Login
+
+//Login
+POST http://localhost:4040/auth/login
+
+###
+
+// Logout 
+POST http://localhost:4040/auth/logout
+
+###
+
+// Refresh Token
+GET http://localhost:4040/auth/token
+

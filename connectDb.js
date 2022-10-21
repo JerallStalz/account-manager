@@ -13,5 +13,4 @@ const connectDb = () => {
     console.log(`There is an error: ${err}`)
   );
 };
-
-module.exportes = connectDb;
+module.exports = connectDb;
